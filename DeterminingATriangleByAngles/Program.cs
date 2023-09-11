@@ -12,46 +12,46 @@ namespace DeterminingATriangleByAngles
 
         static void InputSide()
         {
-            PrintMsg("Введите длины сторон треугольника.");
+            PrintMsg("Enter the lengths of the sides of the triangle.");
             double side1, side2, side3;
 
             #region Input Sides
             while (true)
             {
-                PrintMsg("Введите первую сторону: ");
+                PrintMsg("Enter the first side: ");
                 if (double.TryParse(Console.ReadLine(), out side1) && IsValidSide(side1))
                 {
                     break;
                 }
                 else
                 {
-                    ErrorPrint("[Error]: Диапазон чисел находиться от 0 до 99.");
+                    ErrorPrint("[Error]: The range of numbers is from 0 to 99. Try again!");
                 }
             }
 
             while (true)
             {
-                PrintMsg("Введите вторую сторону: ");
+                PrintMsg("Enter the second side: ");
                 if (double.TryParse(Console.ReadLine(), out side2) && IsValidSide(side2))
                 {
                     break;
                 }
                 else
                 {
-                    ErrorPrint("[Error]: Диапазон чисел находиться от 0 до 99.");
+                    ErrorPrint("[Error]: The range of numbers is from 0 to 99. Try again!");
                 }
             }
 
             while (true)
             {
-                PrintMsg("Введите третью сторону: ");
+                PrintMsg("Enter third side: ");
                 if (double.TryParse(Console.ReadLine(), out side3) && IsValidSide(side3))
                 {
                     break;
                 }
                 else
                 {
-                    ErrorPrint("[Error]: Диапазон чисел находиться от 0 до 99.");
+                    ErrorPrint("[Error]: The range of numbers is from 0 to 99. Try again!");
                 }
             }
             #endregion
@@ -59,14 +59,11 @@ namespace DeterminingATriangleByAngles
             #region IsTriangle?
             if (IsTriangle(side1, side2, side3))
             {
-                //string triangleType = GetTriangleType(side1, side2, side3);
-                //double area = CalculateTriangleArea(side1, side2, side3);
-                //PrintResult($"Треугольник {triangleType} с площадью {area:F2}");
                 FindTheAngle(side1, side2, side3);
             }
             else
             {
-                ErrorPrint("Треугольникa с такими сторонами не существует.");
+                ErrorPrint("There is no triangle with such sides.");
             }
             #endregion
         }
@@ -85,15 +82,15 @@ namespace DeterminingATriangleByAngles
         {
             if (angel1 < 90 && angel2 < 90 && angel3 < 90)
             {
-                return "oстроугольный";
+                return "acute";
             }
             else if (angel1 == 90 || angel2 == 90 || angel3 == 90)
             {
-                return "прямоугольный";
+                return "right";
             }
             else
             {
-                return "тупоугольный";
+                return "obtuse";
             }
         }
 
@@ -113,8 +110,8 @@ namespace DeterminingATriangleByAngles
 
             string triangleType = GetTriangleType(angel1, angel2, angel3);
             double area = CalculateTriangleArea(side1, side2, side3);
-            PrintResult($"Треугольник {triangleType} с площадью {area:F2} и улами:\n" +
-                $"Angel A = {angel1},\nAngel B = {angel2},\nAngel C = {angel3}.");
+            PrintResult($"Triangle {triangleType} with area {area:F2} and streets:\n" +
+                $"Angel A = {angel1:F2},\nAngel B = {angel2:F2},\nAngel C = {angel3:F2}.");
         }
 
         #region Print message
