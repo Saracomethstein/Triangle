@@ -81,19 +81,19 @@ namespace DeterminingATriangleByAngles
             return side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1;
         }
 
-        static string GetTriangleType(double side1, double side2, double side3)
+        static string GetTriangleType(double angel1, double angel2, double angel3)
         {
-            if (side1 == side2 && side2 == side3)
+            if (angel1 < 90 && angel2 < 90 && angel3 < 90)
             {
-                return "равносторонний";
+                return "oстроугольный";
             }
-            else if (side1 == side2 || side1 == side3 || side2 == side3)
+            else if (angel1 == 90 || angel2 == 90 || angel3 == 90)
             {
-                return "равнобедренный";
+                return "прямоугольный";
             }
             else
             {
-                return "разносторонний";
+                return "тупоугольный";
             }
         }
 
@@ -111,7 +111,10 @@ namespace DeterminingATriangleByAngles
             double angel3 = Math.Acos((Math.Pow(side1, 2) + Math.Pow(side2, 2) - Math.Pow(side3, 2))
                 / (2 * side1 * side2)) * 180 / Math.PI;
 
-            Console.WriteLine($"Angel A = {angel1},\nAngel B = {angel2},\nAngel C = {angel3}.");
+            string triangleType = GetTriangleType(angel1, angel2, angel3);
+            double area = CalculateTriangleArea(side1, side2, side3);
+            PrintResult($"Треугольник {triangleType} с площадью {area:F2} и улами:\n" +
+                $"Angel A = {angel1},\nAngel B = {angel2},\nAngel C = {angel3}.");
         }
 
         #region Print message
