@@ -1,0 +1,8 @@
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\DeterminingATriangleByAngles\bin\Debug\DeterminingATriangleByAngles.exe.config
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\DeterminingATriangleByAngles\bin\Debug\DeterminingATriangleByAngles.exe
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\DeterminingATriangleByAngles\bin\Debug\DeterminingATriangleByAngles.pdb
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\DeterminingATriangleByAngles\obj\Debug\DeterminingATriangleByAngles.csproj.AssemblyReference.cache
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\DeterminingATriangleByAngles\obj\Debug\DeterminingATriangleByAngles.csproj.SuggestedBindingRedirects.cache
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\DeterminingATriangleByAngles\obj\Debug\DeterminingATriangleByAngles.csproj.CoreCompileInputs.cache
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\DeterminingATriangleByAngles\obj\Debug\DeterminingATriangleByAngles.exe
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\DeterminingATriangleByAngles\obj\Debug\DeterminingATriangleByAngles.pdb
