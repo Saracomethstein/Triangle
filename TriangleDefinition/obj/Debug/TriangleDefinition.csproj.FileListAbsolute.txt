@@ -1,0 +1,8 @@
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\TriangleDefinition\bin\Debug\Task1KIU.exe.config
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\TriangleDefinition\bin\Debug\Task1KIU.exe
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\TriangleDefinition\bin\Debug\Task1KIU.pdb
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\TriangleDefinition\obj\Debug\TriangleDefinition.csproj.AssemblyReference.cache
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\TriangleDefinition\obj\Debug\TriangleDefinition.csproj.SuggestedBindingRedirects.cache
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\TriangleDefinition\obj\Debug\TriangleDefinition.csproj.CoreCompileInputs.cache
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\TriangleDefinition\obj\Debug\Task1KIU.exe
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\GitHub\TriangleDefinition\obj\Debug\Task1KIU.pdb

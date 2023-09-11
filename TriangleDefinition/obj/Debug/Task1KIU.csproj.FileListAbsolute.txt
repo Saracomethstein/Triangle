@@ -1,0 +1,8 @@
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\Тут только код\Task1KIU\bin\Debug\Task1KIU.exe.config
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\Тут только код\Task1KIU\bin\Debug\Task1KIU.exe
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\Тут только код\Task1KIU\bin\Debug\Task1KIU.pdb
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\Тут только код\Task1KIU\obj\Debug\Task1KIU.csproj.AssemblyReference.cache
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\Тут только код\Task1KIU\obj\Debug\Task1KIU.csproj.SuggestedBindingRedirects.cache
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\Тут только код\Task1KIU\obj\Debug\Task1KIU.csproj.CoreCompileInputs.cache
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\Тут только код\Task1KIU\obj\Debug\Task1KIU.exe
+C:\Users\adels\OneDrive\Desktop\All\Dev\C#\Тут только код\Task1KIU\obj\Debug\Task1KIU.pdb
